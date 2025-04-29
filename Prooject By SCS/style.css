@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;    
+}
+main{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(121, 148, 79)
+}
+#panel{
+    overflow: hidden;
+    height: 90dvh;
+    width: 90dvw;
+    background-color: white;
+    border-radius: 2vh;
+}
+#ptop{
+    padding: 0 40vh;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(0, 58, 0);
+    gap: 9vw;
+}
+.box{
+    padding: 1vh;
+    background-color: white;
+    border-radius: 1vh;
+}
+#elem{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+#elem h2{
+    font-weight: 500;
+    font-size: 2vw;
+}
+.box{
+    color: rgb(2, 48, 2);
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 1vh;
+    background-color: white;
+    border-radius: 1vh;    
+}
+#pbtm{ 
+    height: calc(100% - 10vh);
+    width: 100%;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 208, 5);
+    color: antiquewhite;
+}
+.bubble:hover{
+    background-color: rgb(5, 62, 5);
+    cursor: pointer;
+    color: aquamarine;
+}
